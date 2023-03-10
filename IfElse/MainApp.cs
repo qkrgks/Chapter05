@@ -10,6 +10,7 @@ namespace IfElse
     {
         static void Main(string[] args)
         {
+            // 연결 테스팅
             Console.WriteLine("숫자를 입력하세요. : ");
 
             string input = Console.ReadLine();
