@@ -20,11 +20,11 @@ namespace IfElse
             {
                 Console.WriteLine("음수");
             }
-            else
-            {
-                Console.WriteLine("양수");
+            else if (number > 0)
+            { 
+                Console.WriteLine("양수"); 
             }
-
+                
             else 
             {
                 Console.WriteLine("0");
@@ -40,7 +40,7 @@ namespace IfElse
                 Console.WriteLine("홀수");
             }
 
-            Console.WriteLine(number % 2 == 0 ? "짝수" : "홀수");
+            //Console.WriteLine(number % 2 == 0 ? "짝수" : "홀수");
 
 
         }
