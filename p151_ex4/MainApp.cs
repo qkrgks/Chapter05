@@ -4,28 +4,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P151_ex3
+namespace p151_ex4
 {
     class MainApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("숫자를 입력하세요 : ");
+
+            Console.WriteLine("정수 한개를 입력하세요 : ");
             string input = Console.ReadLine();
             int number = Convert.ToInt32(input);
 
-            if (number >= 50)
+
+            if (number % 3 == 0)
             {
 
-                Console.WriteLine($"입력하신 숫자 " + $"{number}는(은) 50이상 입니다.");
+                Console.WriteLine($"입력하신 정수 " + $"{number}는(은) 3의 배수 입니다.");
 
             }
 
-            else if (number < 50)
+            else
             {
-                Console.WriteLine($"입력하신 숫자 " + $"{number}는(은) 50미만 입니다.");
+
+                Console.WriteLine($"입력하신 정수 " + $"{number}는(은) 3의 배수가 아닙니다.");
+
             }
-            
+
+
+
+
+
+
+
 
         }
     }
