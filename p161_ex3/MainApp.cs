@@ -12,43 +12,33 @@ namespace p161_ex3
         {
 
             Console.Write("몇월이 궁금하세요? : ");
-            string day = Console.ReadLine();
+            string input = Console.ReadLine();
+            int day = 0;
 
-
-            switch (day)
+            switch (input)
             {
-                case "1":
-                    printf("%d월은 31일 입니다", day);
+                case "1":case "3":case "5":case "7":case "8": case "10":case "12":
+
+                    day = 31;
                     break;
 
-                case "3":
-                    printf("%d월은 31일 입니다", day);
+
+
+                case "4": case "6":case "9":case "11":
+                    day = 30;
                     break;
 
-                case "5":
-                    printf("%d월은 31일 입니다", day);
+                case "2":
+                    day = 28;
                     break;
 
-                case "7":
-                    printf("%d월은 31일 입니다", day);
-                    break;
-
-                case "8":
-                    printf("%d월은 31일 입니다", day);
-                    break;
-
-                case "10":
-                    printf("%d월은 31일 입니다", day);
-                    break;
-
-                case "12":
-                    printf("%d월은 31일 입니다", day);
-                    break;
-
+                default:
+                    Console.WriteLine($"{input}월는(은) 요일이 아닙니다.");
+                    return;
 
             }
 
-
+            Console.WriteLine($"{input}월는(은) {day}까지있습니다.");
         }
     }
 }
