@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{430A93F7-A345-46B6-9199-7FD636FE70CD}</ProjectGuid>
+    <ProjectGuid>{97771AF5-E279-4862-8ED4-EB628251C041}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>p151_ex5</RootNamespace>
-    <AssemblyName>p151_ex5</AssemblyName>
+    <RootNamespace>HWANGJEONGIN_ex2</RootNamespace>
+    <AssemblyName>HWANGJEONGIN_ex2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
